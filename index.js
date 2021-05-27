@@ -45,15 +45,20 @@ let personArray = [person1, person2];
 console.log(personArray);
 
 // In-Class Exercise
-/* let person = {name: ["Godwin", "Khanya", "Brent"]
-} */
-
-let person = {
-  person1: { name: "Godwin", surname: "Abrahams", age: 30 },
-  person2: { name: "Khanya", surname: "Gope", age: 24 },
-  person3: { name: "Brent", surname: "Johnson", age: 19 },
+/* let personn = {
+  name: ["Godwin", "Khanya", "Brent"],
+  surname: ["Abrahams", "Gope", "Johnson"],
+  age: [30, 24, 19],
 };
 
-console.log(person);
-console.log(person.person3);
-console.log(person.person3.name);
+console.log(personn); */
+
+let p = {
+  p1: { name: "Godwin", surname: "Abrahams", age: 30 },
+  p2: { name: "Khanya", surname: "Gope", age: 24 },
+  p3: { name: "Brent", surname: "Johnson", age: 19 },
+};
+
+console.log(p);
+console.log(p.p1);
+console.log(p.p3.name);
