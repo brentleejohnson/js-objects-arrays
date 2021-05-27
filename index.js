@@ -1,4 +1,4 @@
-/* // Object Task
+// Object Task
 let person = {
   name: "Brent",
   age: 19,
@@ -25,7 +25,7 @@ selectedColors[2] = "green";
 console.log(selectedColors);
 
 // Properties using the dot(.)
-console.log(selectedColors.length); */
+console.log(selectedColors.length);
 
 // Exercise
 let person1 = {
@@ -43,3 +43,17 @@ console.log(person2);
 
 let personArray = [person1, person2];
 console.log(personArray);
+
+// In-Class Exercise
+/* let person = {name: ["Godwin", "Khanya", "Brent"]
+} */
+
+let person = {
+  person1: { name: "Godwin", surname: "Abrahams", age: 30 },
+  person2: { name: "Khanya", surname: "Gope", age: 24 },
+  person3: { name: "Brent", surname: "Johnson", age: 19 },
+};
+
+console.log(person);
+console.log(person.person3);
+console.log(person.person3.name);
